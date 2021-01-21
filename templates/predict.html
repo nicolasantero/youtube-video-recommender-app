@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="{{ out[1] }}">{{ out[1] }}</a>
+                
+            </div>
+            <h5 class="article-title">{{ out[0] }}</h5>
+            <p class="article-content">Probability {{ out[2] }}</p>
+          </div>
+        </article>
+
+{% endblock content %}
+
+{% block prediction %}
+{% endblock prediction %}

@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+            <p class="mr-2 article-title">{{ out[0] }}</p>
+        </div>
+        <p class="article-content">Probability {{ out[1] }}</p>
+      </div>
+    </article>
+
+{% endblock content %}
+
+{% block prediction %}
+{% endblock prediction %}

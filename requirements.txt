@@ -1,0 +1,13 @@
+gunicorn==20.0.4
+Flask==1.1.2
+requests==2.24.0
+beautifulsoup4==4.9.1
+pandas==1.2.0
+joblib==0.16.0
+numpy==1.18.5
+scipy==1.5.0
+scikit-learn==0.23.1
+lightgbm==3.1.1
+youtube-dl
+flask_wtf
+wtforms
